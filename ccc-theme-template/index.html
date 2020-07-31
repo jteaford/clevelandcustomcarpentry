@@ -7,6 +7,8 @@
 <meta name="author" content="https://www.creativiteaford.com">    
 <link rel="shortcut icon" href="images/logo.png"> 
 
+<!-- Henderson Slab Font -->
+<link rel="stylesheet" href="https://use.typekit.net/tdj8qlb.css">
 <!-- FontAwesome CSS-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <!-- Bootstrap CSS-->
@@ -14,18 +16,21 @@
 <!-- Theme CSS -->
 <link rel="stylesheet" href="css/style.css">
 
-<body>
+
 </head>
+<body>
+
     <header class="header text-center">
         <a class="site-title" href="index.html">SiteName.dev</a>
-
-        <nav class="navbar navbar-expand-lg navbar-dark" >
+        
+        <a href="#nav" id="hamb-nav"><i class="fas fa-bars"></i></a>
+        <nav id="nav" class="navbar navbar-expand-lg navbar-dark" >
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
     
                 <div id="navigation" class="collapse navbar-collapse flex-column" >
-                    <img class="mb-3 mx-auto logo" src="images/logo.png" alt="logo" >			
+                    <img class="mb-3 mx-auto logo" src="images/Cleveland-Custom-Creations-Logo-04.png" alt="logo" >			
                     
                     <ul class="navbar-nav flex-column text-sm-center text-md-left">
                         <li class="nav-item">
@@ -46,8 +51,9 @@
                     </ul>
                     <hr>
                     <ul class="social-list list-inline py-3 mx-auto">
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item" title="email"><a href="mailto:dcleveland116@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                        <li class="list-inline-item" title="facebook"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="list-inline-item" title="instagram"><a href="#"><i class="fab fa-instagram"></i></a></li>
                     </ul>
     
                 </div>
@@ -82,7 +88,7 @@
         
         <footer class="footer text-center py-2 theme-bg-dark">
 		   
-            <p class="copyright"><a href="https://www.creativiteadford.com">Jessica Teaford</a></p>
+            <p class="copyright"><a href="https://www.creativiteaford.com">Jessica Teaford</a></p>
 		   
 	    </footer>
     
