@@ -85,7 +85,7 @@ a{
     background: var(--dark) !important
 }
 
-.header {
+/* .header {
     position: fixed;
     left: 0;
     top: 0;
@@ -150,10 +150,9 @@ a{
 .header .nav-item .nav-link:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.6)
-}
-.logo{
-    width:78px;
-}
+} */
+
+
 .social-list a {
     width: 32px;
     height: 32px;
